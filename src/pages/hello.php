@@ -1,0 +1,1 @@
+<h1>bonjour <?= htmlspecialchars($name, ENT_QUOTES)  ?></h1>
