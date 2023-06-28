@@ -38,6 +38,10 @@ class ComposerStaticInitdada083e6800fc14ab70e44396d14373
             'Psr\\EventDispatcher\\' => 20,
             'PhpParser\\' => 10,
         ),
+        'F' => 
+        array (
+            'Framework\\' => 10,
+        ),
         'D' => 
         array (
             'DeepCopy\\' => 9,
@@ -105,6 +109,10 @@ class ComposerStaticInitdada083e6800fc14ab70e44396d14373
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Framework\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/framework',
         ),
         'DeepCopy\\' => 
         array (

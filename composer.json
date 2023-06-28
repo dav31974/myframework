@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
             "Davidstephane\\Myframework\\": "src/",
-            "App\\": "src/"
+            "App\\": "src/",
+            "Framework\\": "framework/"
         }
     },
     "authors": [
