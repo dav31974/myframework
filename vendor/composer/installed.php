@@ -3,7 +3,7 @@
         'name' => 'davidstephane/myframework',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '4b2e8832fea650a478eaf9db33f765637ce9ad4f',
+        'reference' => '878c4528761479063474f68939c98dd6513a8e89',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'davidstephane/myframework' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '4b2e8832fea650a478eaf9db33f765637ce9ad4f',
+            'reference' => '878c4528761479063474f68939c98dd6513a8e89',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
