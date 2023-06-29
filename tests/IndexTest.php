@@ -3,6 +3,7 @@
 
 use Framework\Simplex;
 use PHPUnit\Framework\TestCase;
+use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Routing\Matcher\UrlMatcher;
@@ -16,14 +17,13 @@ class IndexTest extends TestCase
     public function setUp(): void
     {
         $routes = require __DIR__ . '/../src/routes.php';
-
         $context = new RequestContext();
-
         $urlMatcher = new UrlMatcher($routes, $context);
-
         $controllerResolver = new ControllerResolver();
         $argumentResolver = new ArgumentResolver();
-        $this->framework = new Simplex($urlMatcher, $controllerResolver, $argumentResolver);
+
+        $dispatcher = new EventDispatcher;
+        $this->framework = new Simplex($urlMatcher, $controllerResolver, $argumentResolver, $dispatcher);
     }
 
     public function testHello()

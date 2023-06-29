@@ -19,6 +19,7 @@
     "require": {
         "symfony/http-foundation": "^6.3",
         "symfony/routing": "^6.3",
-        "symfony/http-kernel": "^6.3"
+        "symfony/http-kernel": "^6.3",
+        "symfony/event-dispatcher": "^6.3"
     }
 }
